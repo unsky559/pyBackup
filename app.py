@@ -27,7 +27,6 @@ def checkFlags(arg = sys.argv):
 if __name__ == "__main__":
 
     checkFlags()
-    
     print('Start backup from ' + import_path + ' to ' + output_path)
     z = zipfile.ZipFile(output_path, 'w')
     for root, dirs, files in os.walk(import_path):
