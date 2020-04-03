@@ -1,6 +1,9 @@
 # pyBackup
 This python script is intended for automatically creating simple cli zip/rar backup system
 
+## Python
+Python version 3+
+
 ## Usage
 To run in manual mode use
 
